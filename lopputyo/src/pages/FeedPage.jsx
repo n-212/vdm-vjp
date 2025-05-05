@@ -1,7 +1,10 @@
+import Post from "../components/post"
+
 
 export default function FeedPage() {
+    return(
     <>
-    <h1>Hello</h1>
-    </>
+    <Post />
+    </>)
 }
 

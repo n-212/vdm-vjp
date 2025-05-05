@@ -56,6 +56,12 @@ const components = {
       color: "gray.800",
     },
   },
+  IconButton: {
+   baseStyle: {
+    _icon: {
+        boxSize: "24px"}
+   } 
+  }
 };
 
 const theme = extendTheme({ config, colors, fonts, components });

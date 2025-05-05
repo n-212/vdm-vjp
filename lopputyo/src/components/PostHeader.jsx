@@ -1,9 +1,17 @@
-import { Avatar } from "@chakra-ui/react"
+import { Flex, Avatar, Text, Spacer, IconButton } from "@chakra-ui/react";
+import { FiMoreHorizontal } from "react-icons/fi";
 
-export default function PostHeader({ username, avatarUrl }) {
-  return (
-    <>
-    <Avatar name={username} src={avatarUrl} />
-    </>
-  )
-}
+const PostHeader = ({ username, avatarUrl }) => (
+  <Flex align="center" p={4}>
+    <Avatar name={username} src={avatarUrl} size="sm" />
+    <Text fontWeight="bold" ml={3}>{username}</Text>
+    <Spacer />
+    <IconButton
+      variant="ghost"
+      icon={<FiMoreHorizontal />}
+      aria-label="Options"
+    />
+  </Flex>
+);
+
+export default PostHeader

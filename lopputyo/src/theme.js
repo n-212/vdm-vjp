@@ -1,46 +1,63 @@
-import { createSystem, defaultBaseConfig, defineConfig } from "@chakra-ui/react"
+// theme.js
+import { extendTheme } from "@chakra-ui/react";
 
-const customConfig = defineConfig({
-  theme: {
-    colors: {
-      brand: {
-        50: "#f0f2f5",
-        100: "#e4e6eb",
-        200: "#d8dade",
-        300: "#ccd0d5",
-        400: "#bec3c9",
-        500: "#8e8e93", // Neutral gray tone like Instagram
-        600: "#606770",
-        700: "#444950",
-        800: "#1c1e21",
-        900: "#050505",
-      },
-      accent: {
-        500: "#3897f0", // Instagram blue
-      },
+const config = {
+  initialColorMode: "light",
+  useSystemColorMode: false,
+};
+
+const colors = {
+  brand: {
+    500: "#db145d", // Instagram-like pink
+  },
+  gray: {
+    50: "#ffffff",
+    100: "#f7f7f7",
+    200: "#e1e1e1",
+    300: "#cfcfcf",
+    400: "#b1b1b1",
+    500: "#9e9e9e",
+    600: "#7e7e7e",
+    700: "#626262",
+    800: "#515151",
+    900: "#3b3b3b",
+  },
+};
+
+const fonts = {
+  heading: "'Helvetica Neue', sans-serif",
+  body: "'Helvetica Neue', sans-serif",
+};
+
+const components = {
+  Button: {
+    baseStyle: {
+      borderRadius: "md",
+      fontWeight: "medium",
     },
-    fonts: {
-      heading: "'Helvetica Neue', sans-serif",
-      body: "'Helvetica Neue', sans-serif",
-    },
-    components: {
-      Button: {
-        baseStyle: {
-          fontWeight: "medium",
-          borderRadius: "full",
-        },
-        variants: {
-          solid: {
-            bg: "accent.500",
-            color: "white",
-            _hover: {
-              bg: "accent.600",
-            },
-          },
+    variants: {
+      solid: {
+        bg: "brand.500",
+        color: "white",
+        _hover: {
+          bg: "brand.600",
         },
       },
     },
   },
-})
+  Avatar: {
+    baseStyle: {
+      borderColor: "gray.200",
+      borderWidth: "2px",
+    },
+  },
+  Text: {
+    baseStyle: {
+      color: "gray.800",
+    },
+  },
+};
 
-export const system = createSystem(defaultBaseConfig, customConfig)
+const theme = extendTheme({ config, colors, fonts, components });
+
+export default theme;

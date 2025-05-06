@@ -1,4 +1,3 @@
-// theme.js
 import { extendTheme } from "@chakra-ui/react";
 import "@fontsource/inter"
 import "@fontsource/inter/700.css";
@@ -33,8 +32,6 @@ const fonts = {
 
 const components = {
 
-
-
   Avatar: {
     baseStyle: {
       borderColor: "gray.200",
@@ -44,6 +41,8 @@ const components = {
   Text: {
     baseStyle: {
       color: "#000000",
+      fontSize: "13px",
+      letterSpacing: "-0.1px"
     },
   },
 };

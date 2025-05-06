@@ -32,21 +32,9 @@ const fonts = {
 };
 
 const components = {
-  Button: {
-    baseStyle: {
-      borderRadius: "md",
-      fontWeight: "medium",
-    },
-    variants: {
-      solid: {
-        bg: "brand.500",
-        color: "white",
-        _hover: {
-          bg: "brand.600",
-        },
-      },
-    },
-  },
+
+
+
   Avatar: {
     baseStyle: {
       borderColor: "gray.200",

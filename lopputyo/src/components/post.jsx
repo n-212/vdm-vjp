@@ -7,7 +7,7 @@ import PostActions from "./PostActions"
 export default function Post(){
     return(
         <Box p={0} m={0}>
-            <PostHeader />
+            <PostHeader username={"fitnesstee"}/>
             <Image src={"/avatar.jpeg"} width="100%" objectFit="cover" />
             <PostActions />
         </Box>

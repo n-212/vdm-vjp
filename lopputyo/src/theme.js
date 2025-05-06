@@ -1,5 +1,7 @@
 // theme.js
 import { extendTheme } from "@chakra-ui/react";
+import "@fontsource/inter"
+import "@fontsource/inter/700.css";
 
 const config = {
   initialColorMode: "light",
@@ -25,8 +27,8 @@ const colors = {
 };
 
 const fonts = {
-  heading: "'Helvetica Neue', sans-serif",
-  body: "'Helvetica Neue', sans-serif",
+  heading: "'Inter', sans-serif",
+  body: "'Inter', sans-serif",
 };
 
 const components = {
@@ -53,17 +55,20 @@ const components = {
   },
   Text: {
     baseStyle: {
-      color: "gray.800",
+      color: "#000000",
     },
   },
-  IconButton: {
-   baseStyle: {
-    _icon: {
-        boxSize: "24px"}
-   } 
-  }
 };
 
-const theme = extendTheme({ config, colors, fonts, components });
+const textStyles = {
+    data: {
+        fontSize: "14px",
+        fontWeight: "700",
+        lineHeight: "1.5",
+        letterSpacing: "-0.5px"
+    }
+}
+
+const theme = extendTheme({ config, colors, fonts, components, textStyles });
 
 export default theme;

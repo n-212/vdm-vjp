@@ -11,4 +11,4 @@ const PostDescription = ({ username, caption, likes }) => (
 );
 
 
-export default PostDescription
+export default PostDescription;

@@ -14,7 +14,7 @@ const Infobar = ({ text, bg = "#8DB6CD", color = "black", size = 30}) => (
     my={4}                 // Vertical margin
   >
     <Flex
-      justify="center" // Space out the two texts
+      justify="center"
       align="center"          // Vertically center the text
       height="100%"
     >

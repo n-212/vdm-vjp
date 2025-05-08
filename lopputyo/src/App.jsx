@@ -7,7 +7,6 @@ import AboutPage from "./pages/AboutPage"
 import FeedPage from "./pages/FeedPage"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

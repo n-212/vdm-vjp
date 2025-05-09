@@ -11,6 +11,15 @@ const colors = {
   brand: {
     500: "#db145d", // Instagram-like pink
   },
+
+  kuplassa: {
+    background: "#f6f3f0",
+    kupla1: "#CEDFE6",
+    kupla2: "#ADD1E0",
+    kupla3: "98B6CA"
+
+  },
+
   gray: {
     50: "#ffffff",
     100: "#f7f7f7",

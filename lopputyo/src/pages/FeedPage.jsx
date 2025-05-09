@@ -1,5 +1,6 @@
 import Post from "../components/post"
-import { Box, Flex } from "@chakra-ui/react"
+import { Box, Flex, Show } from "@chakra-ui/react"
+import Logo from "../components/Logo"
 
 
 const postExample = {
@@ -25,11 +26,17 @@ const posts = [postExample, postExample]
 export default function FeedPage() {
     return(
     <>
-    <Flex justify={"center"} width={"100%"}>
-        <Box maxWidth={"540px"}>
-            {posts.map( currentPost => {
+    <Show breakpoint="(min-width: 850px)">
+        <Box position={"fixed"} top={5} left={5}>
+            <Logo />
+        </Box>
+        
+    </Show>
+    <Flex justify={"center"} width={"100%"} backgroundColor={"kuplassa.background"}>
+        <Box maxWidth={"540px"} backgroundColor="white">
+            {posts.map( (currentPost, idx) => {
                 return(
-                    <Post post={currentPost} />
+                    <Post post={currentPost} key={idx} />
                 )
             })}
         </Box>

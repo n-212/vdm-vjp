@@ -1,6 +1,8 @@
 import { extendTheme } from "@chakra-ui/react";
 import "@fontsource/inter"
 import "@fontsource/inter/700.css";
+import '@fontsource-variable/roboto-mono';
+
 
 const config = {
   initialColorMode: "light",
@@ -8,9 +10,15 @@ const config = {
 };
 
 const colors = {
-  brand: {
-    500: "#db145d", // Instagram-like pink
+
+  kuplassa: {
+    background: "#f6f3f0",
+    kupla1: "#CEDFE6",
+    kupla2: "#ADD1E0",
+    kupla3: "98B6CA"
+
   },
+
   gray: {
     50: "#ffffff",
     100: "#f7f7f7",
@@ -28,6 +36,7 @@ const colors = {
 const fonts = {
   heading: "'Inter', sans-serif",
   body: "'Inter', sans-serif",
+  mono: "'Roboto Mono Variable', monospace"
 };
 
 const components = {
@@ -61,9 +70,17 @@ const textStyles = {
         fontWeight: "700",
         lineHeight: "1.5",
         letterSpacing: "-0.5px"
-    }
+    },
 }
 
-const theme = extendTheme({ config, colors, fonts, components, textStyles, breakpoints});
+const styles = {
+  global: {
+    'html, body': {
+      backgroundColor: 'kuplassa.background', // Using your custom color
+    },
+  },
+};
+
+const theme = extendTheme({ config, colors, fonts, components, textStyles, styles, breakpoints});
 
 export default theme;

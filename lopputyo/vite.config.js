@@ -4,15 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-
   server: {
-    host: '0.0.0.0', 
-    port: 5173,        // Nää on täällä vaa et sain ton ngrokin toimii. 
     allowedHosts: [
-      ".ngrok-free.app", 
-      "localhost"        
-    ],
-  },
+      '.ngrok-free.app', // Allows all ngrok free tier domains
+      '.ngrok.io' // Also allows paid ngrok domains if needed
+    ]
+  }
 })
-
-

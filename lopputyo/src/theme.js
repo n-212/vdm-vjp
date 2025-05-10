@@ -47,6 +47,14 @@ const components = {
   },
 };
 
+const breakpoints = {
+  sm: "320px",    // Small mobile
+  md: "768px",    // Tablet
+  lg: "1024px",   // Laptop
+  xl: "1280px",   // Desktop
+  "2xl": "1536px" // Large desktop
+};
+
 const textStyles = {
     data: {
         fontSize: "14px",
@@ -56,6 +64,6 @@ const textStyles = {
     }
 }
 
-const theme = extendTheme({ config, colors, fonts, components, textStyles });
+const theme = extendTheme({ config, colors, fonts, components, textStyles, breakpoints});
 
 export default theme;

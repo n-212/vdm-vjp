@@ -3,19 +3,23 @@ import { Box, Text, Flex } from "@chakra-ui/react";
 
 const Infobar = ({ text, bg = "#8DB6CD", color = "black", size = 30}) => (
   <Box
-    bg={bg}                // Background color (default from your image)
-    borderRadius="2xl"     // Large, pill-like rounded corners
-    px={8}                 // Horizontal padding
-    py={2}                 // Vertical padding
+    transition="all 0.3s ease" 
+    _hover={{
+    transform: "scale(1.1)", 
+    }}
+    bg={bg}               
+    borderRadius="2xl"    
+    px={8}                 
+    py={2}                
     w={size}
-    h={size / 4}            // Full width by default
-    maxW="600px"           // Maximum width (adjust as needed)
-    mx="auto"              // Center horizontally
-    my={4}                 // Vertical margin
+    h={size / 4}            
+    maxW="600px"           
+    mx="auto"              
+    my={4}                 
   >
     <Flex
       justify="center"
-      align="center"          // Vertically center the text
+      align="center"          
       height="100%"
     >
       <Text

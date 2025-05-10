@@ -1,4 +1,4 @@
-import InfoCircle from "../components/infocircle"
+import InfoCircle from "../components/Infocircle"
 import { Text, Heading, Link, Box} from "@chakra-ui/react"
 
 export default function MainPage() {

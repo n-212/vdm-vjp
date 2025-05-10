@@ -1,8 +1,9 @@
 import { Text, Heading, Link, Box} from "@chakra-ui/react"
-import InfoCircle from "../components/infocircle"
-import InfoBar from "../components/infobar"
+import InfoCircle from "../components/Infocircle"
+import InfoBar from "../components/Infobar"
 import { Global } from "@emotion/react";
 import { useNavigate } from 'react-router-dom';
+import ContactsBox from "../components/ContactsBox";
 
 
 export default function AboutPage() {
@@ -187,10 +188,12 @@ export default function AboutPage() {
             
             </Box>
     
-            <Box position="absolute" top="96%" left="50%" transform="translateX(-50%)" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>   
+            <Box position="absolute" top="95%" left="50%" transform="translateX(-50%)" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>   
             <InfoBar text="Takaisin pääsivulle" bg="rgb(152,182,202)" color="black" size={220}></InfoBar>
-            
-            
+            </Box> 
+
+            <Box position="absolute" top="100.3%" left="50%" transform="translateX(-50%)">
+            <ContactsBox></ContactsBox>
             </Box>
     
             </Box>

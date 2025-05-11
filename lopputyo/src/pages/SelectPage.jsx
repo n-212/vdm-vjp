@@ -10,9 +10,12 @@ export default function SelectPage(){
         <Box position={"fixed"} top={5} left={5}>
             <Logo width="60px"/>
         </Box>
-        <Flex height={"100vh"} alignItems={"center"} justifyContent={"center"}>
+        <Box position="absolute" 
+                top="-50%" 
+                transform="translate(0%, 50%)"
+                width="100%">
             <SelectCarousel />
-        </Flex>
+        </Box>        
         </>
     )
 }

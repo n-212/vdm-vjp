@@ -4,7 +4,6 @@ import Logo from "../components/Logo"
 import { useParams } from "react-router-dom"
 import feedPosts from "../feedPosts.json"
 import SelectCarousel from "../components/SelectCarousel"
-import { Carousel } from "chakra-ui-carousel"
 
 
 

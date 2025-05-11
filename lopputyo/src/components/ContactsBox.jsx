@@ -1,6 +1,8 @@
 import React from "react";
 import { Box, Text, Flex } from "@chakra-ui/react";
 
+// Komponentti, jossa firman somet. Responsiivinen itsestään, ei propseja.
+
 const ContactsBox = () => (
     <Box
       position="fixed"
@@ -10,7 +12,7 @@ const ContactsBox = () => (
       bg="#CEDFE6"
       borderRadius="2xl"
       width="100vw"
-      maxW="600px"
+      maxW={{ sm: "95vw", lg: "600px" }} // max leveys responsiivinen
       mx="auto"
       mb={4}
       boxShadow="md"
@@ -24,28 +26,28 @@ const ContactsBox = () => (
       >
         <Text
           fontFamily="monospace"
-          fontSize="14"
+          fontSize={{ sm: "14px", lg: "18px" }} // responsiivinen fontti. 
           color="black"
           textAlign="center"
           mb={1}
         >
-          Yritys Oy
+          Helsingin Sanomat
         </Text>
         <Text
           fontFamily="monospace"
-          fontSize="12"
+          fontSize={{ sm: "12px", lg: "16px" }} //responsiivinen fontti 
           color="black"
           textAlign="center"
         >
-          Puh: 040 123 4567 | Sähköposti: info@yritys.fi
+          Puh: 09 1221 | Sähköposti: hs.kotimaa@hs.fi
         </Text>
         <Text
           fontFamily="monospace"
-          fontSize="12"
+          fontSize={{ sm: "12px", lg: "16px" }}
           color="black"
           textAlign="center"
         >
-          Osoite: Esimerkkikatu 1, 00100 Helsinki
+          Osoite: Töölönlahdenkatu 2, Helsinki
         </Text>
       </Flex>
     </Box>

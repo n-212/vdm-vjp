@@ -2,6 +2,7 @@ import SelectCard from "./SelectCard";
 import { Provider, Carousel, LeftButton, RightButton } from "chakra-ui-carousel"
 import { Box, Button, Stack } from "@chakra-ui/react"
 import feeds from "../feeds.json"
+import { Link } from 'react-router-dom'
 
 
 export default function SelectCarousel() {
@@ -19,7 +20,17 @@ export default function SelectCarousel() {
             <>
             <Stack>
                 <SelectCard key={bubble.heading} data={bubble} />
-                <Button bg="kuplassa.kupla3" mx="30px" width="80%" mt="15px" maxWidth={"450px"} fontSize={"30px"} padding={8} borderRadius="15px" color="black">SUKELLA KUPLAAN</Button>
+                <Button 
+                as={Link} to={`/feed/${bubble.heading}`}
+                bg="kuplassa.kupla3" 
+                mx="30px" 
+                width="80%" 
+                mt="15px" 
+                maxWidth={"334px"} 
+                fontSize={"30px"} 
+                padding={8} 
+                borderRadius="15px" 
+                color="black">SUKELLA KUPLAAN</Button>
             </Stack>
             </>
         ))}

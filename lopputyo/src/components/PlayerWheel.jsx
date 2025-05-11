@@ -3,7 +3,7 @@ import { Box, Image, useBreakpointValue } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import InfoBar from "./InfoBar";
 
-const PlayerWheel = () => {
+const PlayerWheel = ( { onOpen } ) => {
   const navigate = useNavigate();
   const N = 6;
 
@@ -55,8 +55,20 @@ const PlayerWheel = () => {
         left="50%"
         top="50%"
         transform="translate(-50%, -50%)"
-        onClick={() => navigate("/select")}
-        style={{ cursor: "pointer" }}
+        onClick={() => 
+        {
+          if (window.innerWidth < 768) {
+            console.log("moi")
+            navigate("/select")
+          }
+          else{
+            if (onOpen) {
+              onOpen();
+            }
+          } 
+        }}
+
+ 
       >
         <InfoBar text="Pelaa!" bg="#ADD1E0" color="black" size={avatarSize ? avatarSize * 1.7 : 120} />
       </Box>

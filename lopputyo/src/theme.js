@@ -61,7 +61,7 @@ const breakpoints = {
   md: "768px",    // Tablet
   lg: "1024px",   // Laptop
   xl: "1280px",   // Desktop
-  "2xl": "1536px" // Large desktop
+  "2xl": "1670px" // Large desktop
 };
 
 const textStyles = {

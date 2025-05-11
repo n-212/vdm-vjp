@@ -53,6 +53,7 @@ export default function SelectCarousel() {
             <>
             <Stack>
                 <SelectCard key={bubble.heading} data={bubble} />
+                <Button bg="kuplassa.kupla3" mx="30px" width="80%" mt="15px" maxWidth={"450px"} fontSize={"30px"} padding={8} borderRadius="15px" color="black">SUKELLA KUPLAAN</Button>
             </Stack>
             </>
         ))}
@@ -61,7 +62,6 @@ export default function SelectCarousel() {
         <RightButton position={"absolute"} top="50%" right="8px" zIndex={2} width="40px" borderRadius="20px"/>
   </Provider>
 )
-
 }
 
 

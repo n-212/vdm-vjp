@@ -15,7 +15,7 @@ const colors = {
     background: "#f6f3f0",
     kupla1: "#CEDFE6",
     kupla2: "#ADD1E0",
-    kupla3: "98B6CA"
+    kupla3: "#98B6CA"
 
   },
 

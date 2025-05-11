@@ -1,0 +1,43 @@
+{
+    "salaliito": [
+        {
+            "username": "fitnesstee",
+            "picSrc": "/trump.jpg",
+            "likes": 1061,
+            "description": "Ensi viikolla Salatut elämät -sarjassa Salla kertoo Danielalle nähneensä Noelin toisen naisen seurassa. Myöhemmin Danielaa odottaa kotona yllätys.",
+            "comments": [
+                {
+                    "user": "möröjölli",
+                    "text": "jee"
+
+                },
+                {
+                    "user": "someprovokaattori",
+                    "text": "on hyvä että naisen euro on 80 senttiä niin pysyy marssijärjestys"
+                }
+            ]
+        },
+        {
+            "username": "fitnesstee",
+            "picSrc": "/avatar.jpeg",
+            "likes": 1061,
+            "description": "Ensi viikolla Salatut elämät -sarjassa Salla kertoo Danielalle nähneensä Noelin toisen naisen seurassa. Myöhemmin Danielaa odottaa kotona yllätys.",
+            "comments": [
+                {
+                    "user": "möröjölli",
+                    "text": "jee"
+
+                },
+                {
+                    "user": "someprovokaattori",
+                    "text": "on hyvä että naisen euro on 80 senttiä niin pysyy marssijärjestys"
+                }
+            ]
+}
+
+
+],
+    
+    "kauneus": [],
+    "konservatiivi": []
+}

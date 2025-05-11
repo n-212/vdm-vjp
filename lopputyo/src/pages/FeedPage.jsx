@@ -1,6 +1,7 @@
 import Post from "../components/post"
 import { Box, Flex, Show } from "@chakra-ui/react"
 import Logo from "../components/Logo"
+import { useParams } from "react-router-dom"
 
 
 const postExample = {
@@ -42,6 +43,9 @@ const postExample2 = {
 const posts = [postExample, postExample2]
 
 export default function FeedPage() {
+
+    const { id } = useParams
+
     return(
     <>
     <Show breakpoint="(min-width: 850px)">

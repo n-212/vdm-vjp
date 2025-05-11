@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/feed" element={<FeedPage />} />
+        <Route path="/feed/:id" element={<FeedPage />} />
         <Route path="/select" element={<SelectPage />} />
       </Routes>
     </>

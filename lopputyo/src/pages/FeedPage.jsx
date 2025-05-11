@@ -2,6 +2,7 @@ import Post from "../components/post"
 import { Box, Flex, Show } from "@chakra-ui/react"
 import Logo from "../components/Logo"
 import { useParams } from "react-router-dom"
+import feedPosts from "../feedPosts.json"
 
 
 const postExample = {
@@ -40,11 +41,12 @@ const postExample2 = {
     ]
 }
 
-const posts = [postExample, postExample2]
 
 export default function FeedPage() {
 
-    const { id } = useParams
+    const { id } = useParams()
+
+    const posts = feedPosts[id]
 
     return(
     <>

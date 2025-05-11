@@ -17,7 +17,6 @@ export default function SelectCarousel() {
         // You can add more props as needed for customization
         >
         {feeds.map((bubble) => (
-            <>
             <Stack>
                 <SelectCard key={bubble.heading} data={bubble} />
                 <Button 
@@ -32,7 +31,6 @@ export default function SelectCarousel() {
                 borderRadius="15px" 
                 color="black">SUKELLA KUPLAAN</Button>
             </Stack>
-            </>
         ))}
         </Carousel>
         <LeftButton position={"absolute"} top="50%" left="8px" zIndex={2} width="40px" borderRadius="20px"/>

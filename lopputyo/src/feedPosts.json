@@ -1,27 +1,29 @@
 {
-    "salaliito": [
+    "salaliitto": [
         {
-            "username": "fitnesstee",
-            "picSrc": "/trump.jpg",
-            "likes": 1061,
-            "description": "Ensi viikolla Salatut elämät -sarjassa Salla kertoo Danielalle nähneensä Noelin toisen naisen seurassa. Myöhemmin Danielaa odottaa kotona yllätys.",
+            "username": "totuuden_kaivaja",
+            "picSrc": "rokotteet.jpg ",
+            "likes": 40765,
+            "description": 
+            "🧬 COVID-rokotteissa (ja muissa rokotteissa) on nano-mikrosiruja – Bill Gates myönsi sen 'vahingossa' haastattelussa 2023.\n📶 5G-verkot aktivoivat ne – testaa magneettia iholasi piikin kohdalla.\n🧑‍💼 Eliitti haluaa kontrollin – passit, sosiaalipisteet ja lopulta täydellinen orjuutus. Herää ennen kuin on liian myöhäistä!\n🔍#RokoteTruth #StopTheGreatReset",
             "comments": [
                 {
-                    "user": "möröjölli",
-                    "text": "jee"
+                    "user": "conspiracytheorist007", 
+                    "text": "Testasin magneetin – tarttuu ihon alle! MITÄ VTTUA?!"
 
                 },
                 {
-                    "user": "someprovokaattori",
-                    "text": "on hyvä että naisen euro on 80 senttiä niin pysyy marssijärjestys"
+                    "user": "terveysedellä",
+                    "text": "Miksi media vaikenee tästä?! Kiitos kun jaoit!"
                 }
             ]
         },
         {
-            "username": "fitnesstee",
-            "picSrc": "/avatar.jpeg",
-            "likes": 1061,
-            "description": "Ensi viikolla Salatut elämät -sarjassa Salla kertoo Danielalle nähneensä Noelin toisen naisen seurassa. Myöhemmin Danielaa odottaa kotona yllätys.",
+            "username": "maa_on_littea",
+            "picSrc": "/flat_earth.jpeg",
+            "likes": 856,
+            "description": 
+            "🔵 NASA:n budjetti = 22 miljardia vuodessa – miksi? Koska maapallon litteys on helposti todistettavissa!\n✈️ Kaikki lennot ovat sovitusti reititettyjä – et voi lentää 'ympäri' litteää levyä.\n 🌊 Horisontti on aina tasainen – katso itse! Tutki, kyseenalaista, älä usko 'virallista' tiedettä!\n🧠 \n#FlatEarth #OpenYourEyes", 
             "comments": [
                 {
                     "user": "möröjölli",
@@ -38,6 +40,9 @@
 
 ],
     
-    "kauneus": [],
-    "konservatiivi": []
+    "kauneus": [], 
+    "konservatiivi": [], 
+    "ylikulutus": [], 
+    "alfamies": [], 
+    "cleangirl": []
 }

@@ -3,7 +3,47 @@
     "heading": "salaliitto",
     "headingBackgroundColor": "black",
     "headingColor": "white",
-    "avatarSrc": "/hahmo.png",
+    "avatarSrc": "/avatar_6.png",
     "description": "Herää! Media valehtelee. ..."
-    }
+    }, 
+
+    {
+    "heading": "aktivismi",
+    "headingBackgroundColor": "black",
+    "headingColor": "white",
+    "avatarSrc": "/avatar_2.png",
+    "description": "Miten voit nauttia kahvistasi kun miljoonat nääntyvät?"
+    }, 
+
+    {
+    "heading": "konservatiivi",
+    "headingBackgroundColor": "black",
+    "headingColor": "white",
+    "avatarSrc": "/avatar_4.png",
+    "description": "En jaksa enää kuulla teidän pullaposki vassarien sönkötystä."
+    }, 
+
+    {
+    "heading": "cleangirl",
+    "headingBackgroundColor": "black",
+    "headingColor": "white",
+    "avatarSrc": "/avatar_3.png",
+    "description": "10km aamulenkki + mustikkapuuro = love !"
+    } 
+    , 
+    {
+    "heading": "ylikulutus",
+    "headingBackgroundColor": "black",
+    "headingColor": "white",
+    "avatarSrc": "/avatar_5.png",
+    "description": "Pakko ostaa uutta kesämuotia!"
+    }, 
+
+    {
+    "heading": "alfamies",
+    "headingBackgroundColor": "black",
+    "headingColor": "white",
+    "avatarSrc": "/avatar_1.png",
+    "description": "Feminismi on mennyt aivan liian pitkälle."
+    } 
 ]

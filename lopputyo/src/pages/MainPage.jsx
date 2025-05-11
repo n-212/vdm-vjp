@@ -6,12 +6,16 @@ import { useNavigate } from 'react-router-dom';
 import ContactsBox from "../components/ContactsBox";
 import PlayerWheel from "../components/PlayerWheel"
 import { Image } from "@chakra-ui/react";
+import { useDisclosure } from "@chakra-ui/react";
+import OpenSelect from "../components/OpenSelect";
 
 
 
 
 export default function MainPage() {
   const navigate = useNavigate();
+  const {isOpen, onOpen, onClose } = useDisclosure();
+
     return(
     <>
 
@@ -125,8 +129,8 @@ export default function MainPage() {
 
         <Box
           position="absolute"
-          top={{ sm: "35%", md: "35%", lg: "70%", "2xl": "70%" }}
-          left={{ sm: "78%", md: "78%", lg: "46%", "2xl": "46%" }}
+          top={{ sm: "35%", md: "35%", lg: "19%", "2xl": "21%" }}
+          left={{ sm: "78%", md: "78%", lg: "80%", "2xl": "80%" }}
           transform="rotate(0deg)"
         >
           <InfoCircle color="#ADD1E0" size={{ sm: 50, lg: 50 }} />
@@ -153,25 +157,6 @@ export default function MainPage() {
         </Box>
 
 
-        <Box
-          position="absolute"
-          top={{ sm: "65%", md: "76%", lg: "57%", "2xl": "57%" }}
-          left={{ sm: "9%", md: "12%", lg: "42%", "2xl": "42%" }}
-          transform="rotate(0deg)"
-        >
-          <InfoCircle color="rgb(152,182,202)" size={{ sm: 13, lg: 25 }} />
-        </Box>
-
-
-        <Box
-          position="absolute"
-          top={{ sm: "70%", md: "69%", lg: "76%", "2xl": "76%" }}
-          left={{ sm: "5%", md: "20%", lg: "38%", "2xl": "38%" }}
-          transform="rotate(0deg)"
-        >
-          <InfoCircle color="#CEDFE6" size={{ sm: 17, lg: 30 }} />
-        </Box>
-
 
         <Box
           position="absolute"
@@ -179,8 +164,10 @@ export default function MainPage() {
           left={{ sm: "50%", md: "50%", lg: "79.5%", "2xl": "79%" }}
           transform="translateX(-50%)"
         >
-          <PlayerWheel />
+          <PlayerWheel onOpen={onOpen}/>
         </Box>
+
+        <OpenSelect isOpen={isOpen} onClose={onClose}> </OpenSelect>
 
 
         <Box

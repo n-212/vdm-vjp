@@ -4,7 +4,7 @@ export default function SelectCard({ data }) {
 
   return (
     <Box width="100vw">
-    <Card backgroundColor="kuplassa.kupla1" borderRadius="15px" p="8px" m="30px" width="80%" maxHeight={"450px"} maxWidth={"450px"} aspectRatio="1 / 1">
+    <Card backgroundColor="kuplassa.kupla1" borderRadius="15px" p="8px" mx="30px" width="80%" maxHeight={"450px"} maxWidth={"450px"} aspectRatio="1 / 1">
       <Flex justifyContent="center">
         <Box
           backgroundColor={data.headingBackgroundColor}

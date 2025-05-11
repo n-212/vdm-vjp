@@ -2,16 +2,7 @@ import React from "react";
 import { Box, Text, useBreakpointValue } from "@chakra-ui/react";
 
 const InfoCircle = ({ color, size, fontSize, title, text }) => {
-  // Add responsive values
-  const responsiveSize = useBreakpointValue({
-    base: size,
-    "2xl": size*1.2
-  });
 
-  const responsiveFontSize = useBreakpointValue({
-    base: fontSize, 
-    "2xl": fontSize*1.2
-  });
 
   return (
     <Box
@@ -20,8 +11,8 @@ const InfoCircle = ({ color, size, fontSize, title, text }) => {
       transform: "scale(1.1)", 
         }}
       bg={color}
-      w={`${responsiveSize}px`}
-      h={`${responsiveSize}px`}
+      w={size}
+      h={size}
       borderRadius="full"
       position="relative"
       boxShadow="md"
@@ -34,7 +25,7 @@ const InfoCircle = ({ color, size, fontSize, title, text }) => {
     >
       {title && (
         <Text
-          fontSize={`${responsiveFontSize}px`}
+          fontSize={fontSize}
           fontWeight="semibold"
           lineHeight="1.3"
           maxW="80%"
@@ -45,7 +36,15 @@ const InfoCircle = ({ color, size, fontSize, title, text }) => {
       )}
       {text && (
         <Text
-          fontSize={`${responsiveFontSize * 0.8}px`}
+          fontSize={
+            fontSize
+              ? typeof fontSize === "object"
+                ? Object.fromEntries(
+                    Object.entries(fontSize).map(([k, v]) => [k, v * 0.8])
+                  )
+                : fontSize * 0.8
+              : undefined
+          }
           lineHeight="1.5"
           maxW="80%"
         >

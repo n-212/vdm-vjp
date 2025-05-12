@@ -2,14 +2,13 @@ import React, { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import { Box, Button, Stack, useBreakpointValue } from "@chakra-ui/react";
 import SelectCard from "./SelectCard";
 import feeds from "../feeds.json";
 import { Link } from 'react-router-dom';
 
-export default function SelectCarousel() {
+export default function SelectCarousel({ remove="" }) {
   const responsiveGap = useBreakpointValue({
     base: 25,
     sm: 25,
@@ -22,7 +21,6 @@ export default function SelectCarousel() {
 
   return (
     <Box maxW="400px" mx="auto" position="relative">
-      {/* Custom Left Button */}
       <Button
         ref={prevRef}
         position="absolute"
@@ -44,7 +42,6 @@ export default function SelectCarousel() {
           <polyline points="15 18 9 12 15 6" />
         </svg>
       </Button>
-      {/* Custom Right Button */}
       <Button
         ref={nextRef}
         position="absolute"
@@ -75,8 +72,7 @@ export default function SelectCarousel() {
           prevEl: prevRef.current,
           nextEl: nextRef.current,
         }}
-        pagination={{ clickable: true }}
-        modules={[Navigation, Pagination]}
+        modules={[Navigation]}
         onInit={(swiper) => {
           swiper.params.navigation.prevEl = prevRef.current;
           swiper.params.navigation.nextEl = nextRef.current;
@@ -84,18 +80,18 @@ export default function SelectCarousel() {
           swiper.navigation.update();
         }}
       >
-        {feeds.map((bubble) => (
+        {feeds.filter(item => item.heading !== remove).map((bubble) => (
           <SwiperSlide key={bubble.heading}>
             <Stack>
-              <SelectCard data={bubble} />
+              <SelectCard to={`/feed/${bubble.heading}`} data={bubble} />
               <Button
                 as={Link}
                 to={`/feed/${bubble.heading}`}
                 bg="kuplassa.kupla3"
                 mx="30px"
-                width="80%"
+                minWidth="80%"
                 mt="15px"
-                maxWidth="334px"
+                maxWidth="340px"
                 fontSize="30px"
                 padding={8}
                 borderRadius="15px"

@@ -34,13 +34,15 @@ Moona Multala
 Arttu Valonen
 
     Työtehtävät:
-    Feedin koodaus
+    Feedin koodaus, modaalin suunnittelu loppuun, select pagen koodaus. theme.js tekeminen, git projektin perustaminen. 
 
     Työtunnit:
-    9.5
-    10.5
-    11.5 
-    12.5
+    7.5 -> 4h 
+    8.5 -> 2h 
+    9.5 -> 6h
+    10.5 -> 6h
+    11.5  -> 6h
+    12.5 -> 5h 
 
 
 Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
@@ -48,13 +50,16 @@ Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haaste
     Opimme, että git on erittäin vahva työkalu varsinkin ryhmässä työskennellessä. Emme kohdanneet mitään kovin pahoja haasteita, välillä vain jotkin commitit menivät hieman sekaisin ja siihen kului turhaa aikaa. 
 
 Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
+
     Projektissamme on monta eri alasivua, joten oli aika helppoa jakaa eri ryhmäläisiä vain työskentelemään eri alasivujen pariin. Näin minimoimme mahdollisten päällekkäisyysongelmien määrän. 
 
 Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
+
     Opimme, että on todella tärkeää tehdä saman näköisiä komponentteja, jotta nettisivut muodostavat luotettavan ja yhtenäisen kuvan käyttäjälle. On siis tärkeää, ennen minkään komponentin koodausta, että kaikki tietävät minkä tyylisiä komponenttien tulee olla.
 
 
 Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla? 
+
     Hyödynnettiin tekoälyä kun figmassa suunniteltuja somepostauksia JSON muotoon. Kysyttiin myös apua myös ohjelmoinnissa, esim. miten UseState toimii Chakra UI:n kanssa. 
 
 

@@ -1,3 +1,7 @@
+
+Linkki sivuille: https://vdm-vjp-eight.vercel.app/
+
+
 Emil Riihiranta
 
     Työtehtävät: 
@@ -52,3 +56,5 @@ Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
 
 Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla? 
     Hyödynnettiin tekoälyä kun figmassa suunniteltuja somepostauksia JSON muotoon. Kysyttiin myös apua myös ohjelmoinnissa, esim. miten UseState toimii Chakra UI:n kanssa. 
+
+

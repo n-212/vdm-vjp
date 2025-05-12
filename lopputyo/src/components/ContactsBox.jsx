@@ -27,7 +27,7 @@ const ContactsBox = () => (
         <Text
           fontFamily="monospace"
           fontSize={{ sm: "14px", lg: "18px" }} // responsiivinen fontti. 
-          color="white"
+          color="#fefeff"
           textAlign="center"
           mb={1}
         >
@@ -36,7 +36,7 @@ const ContactsBox = () => (
         <Text
           fontFamily="monospace"
           fontSize={{ sm: "12px", lg: "16px" }} //responsiivinen fontti 
-          color="white"
+          color="#fefeff"
           textAlign="center"
         >
           Puh: 09 1221 | Sähköposti: hs.kotimaa@hs.fi
@@ -44,7 +44,7 @@ const ContactsBox = () => (
         <Text
           fontFamily="monospace"
           fontSize={{ sm: "12px", lg: "16px" }}
-          color="white"
+          color="#fefeff"
           textAlign="center"
         >
           Osoite: Töölönlahdenkatu 2, Helsinki

@@ -8,7 +8,7 @@ import PostComments from "./PostComments"
 export default function Post({ post }){
     return(
         <Box p={0} m={0} mb={2}>
-            <PostHeader username={"fitnesstee"}/>
+            <PostHeader username={post.username}/>
             <Image src={post.picSrc} width="100%" objectFit="cover" />
             <PostActions />
             <PostDescription username={post.username} likes={post.likes} caption={post.description} />

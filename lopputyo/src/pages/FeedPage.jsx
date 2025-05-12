@@ -32,7 +32,7 @@ export default function FeedPage() {
     </Flex>
     <Box maxWidth={"540px"} backgroundColor="white" margin={"auto"} >
         <Box maxWidth={"400px"} margin={"auto"} py={12}>
-            <SelectCarousel remove={id} pagination={false}/>
+            <SelectCarousel remove={id}/>
         </Box>
     </Box>
 

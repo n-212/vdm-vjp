@@ -20,8 +20,7 @@ export default function AboutPage() {
           flexDirection: 'column',
           backgroundColor: '#F6F3F0',
           margin: 0,
-          padding: 0,
-          backgroundColor: '#F6F3F0',
+          padding: 0
         },
 
 

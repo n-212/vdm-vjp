@@ -1,6 +1,6 @@
 import { Text, Heading, Link, Box} from "@chakra-ui/react"
 import InfoCircle from "../components/Infocircle"
-import InfoBar from "../components/InfoBar"
+import InfoBar from "../components/Infobar"
 import { Global } from "@emotion/react";
 import { useNavigate } from 'react-router-dom';
 import ContactsBox from "../components/ContactsBox";

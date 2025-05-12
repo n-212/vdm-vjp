@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Image, useBreakpointValue } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-import InfoBar from "./InfoBar";
+import InfoBar from "./Infobar";
 
 const PlayerWheel = ( { onOpen } ) => {
   const navigate = useNavigate();

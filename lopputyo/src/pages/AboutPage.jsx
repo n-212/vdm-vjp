@@ -45,13 +45,19 @@ export default function AboutPage() {
 
 
         <Image
-          src="/kuplassa_logo.png"
-          alt="Logo"
+          src="/logo.png"
+          alt="Helsingin Sanomien logo"
           position="absolute"
           top={{ sm: "0.5%", md: "0.5%", lg: "0.5%", "2xl": "0.5%" }}
           left={{ sm: "4%", md: "4%", lg: "4%", "2xl": "4%" }}
           width={{ sm: "85px", md: "130px", lg: "150px", "2xl": "150px" }}
           height="auto"
+          borderRadius="30px"
+          onClick={() => navigate('/')} // Logoa klikkaamalla pääsee takaisin pääsivulle, hover efekti ja kursorinmuutos vinkkaa tästä käyttäjälle. 
+          transition="all 0.3s ease" 
+          cursor="pointer"
+          _hover={{
+          transform: "scale(1.1)"}}
         />
 
 

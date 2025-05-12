@@ -57,13 +57,14 @@ export default function MainPage() {
 
 
         <Image
-          src="/kuplassa_logo.png"
+          src="/logo.png"
           alt="Logo"
           position="absolute"
           top={{ sm: "0.5%", md: "0.5%", lg: "0.5%", "2xl": "0.5%" }}
           left={{ sm: "4%", md: "4%", lg: "4%", "2xl": "4%" }}
-          width={{ sm: "85px", md: "85px", lg: "150px", "2xl": "150px" }}
+          width={{ sm: "75px", md: "80px", lg: "120px", "2xl": "150px" }}
           height="auto"
+          borderRadius="30px"
         />
 
 

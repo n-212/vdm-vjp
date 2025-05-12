@@ -2,9 +2,11 @@ Emil Riihiranta
 
     Työtehtävät: 
     AboutPagen ja MainPagen koodaaminen ja niiden responsiivisuudesta huolehtiminen Moonan kanssa.  
-    Modaalin tekeminen pääsivulle. 
+    Modaalin tekeminen pääsivulle. JSON datan syöttäminen JSON tiedostoihin.
 
-    Työtunnit: 
+    Työtunnit:
+    7.5 -> 2h 
+    8.5 -> 2h 
     9.5 -> 3h
     10.5 -> 6h
     11.5  -> 7h

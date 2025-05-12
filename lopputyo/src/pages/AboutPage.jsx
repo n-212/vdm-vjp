@@ -12,30 +12,33 @@ export default function AboutPage() {
     return(
     <>
         <Global styles={{
+        // asettaa css, body.chakra-ui-light:lle ja rootille vain tällä sivulla. Laitetaan minHeight 190vh, jotta voidaan käyttää absolute pos. tehokkaasti.
         '.chakra-ui-light': {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
           flexDirection: 'column',
-          minHeight: '450vh',
+          backgroundColor: '#F6F3F0',
           margin: 0,
           padding: 0,
-          backgroundColor: 'white'
+          backgroundColor: '#F6F3F0',
         },
+
+
         '#root': {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
             flexDirection: 'column',
-            minHeight: '450vh',
             margin: 0,
             padding: 0,
-            backgroundColor: 'white'
+            backgroundColor: '#F6F3F0',
+            width: "100%"
         }
       }}/>
 
 
-        <Box w="100vw" minh="450vh" bg="#F6F3F0" display="flex" justifyContent="center" alignItems="center" overflow="hidden" m={0} p={0}>
+        <Box w="100vw" minh="450vh" bg="#F6F3F0" display="flex" justifyContent="center" maxW={"1000px"} alignItems="center" overflow="hidden" m={0} p={0}>
 
 
         <Box w="100vw" minH="450vh" position="relative" m={0} p={0} overflow="hidden" maxW="1000px" bg="#F6F3F0">

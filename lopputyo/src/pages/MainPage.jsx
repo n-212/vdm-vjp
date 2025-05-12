@@ -27,9 +27,10 @@ export default function MainPage() {
           justifyContent: 'center',
           alignItems: 'center',
           flexDirection: 'column',
+          backgroundColor: '#F6F3F0',
           margin: 0,
           padding: 0,
-          backgroundColor: 'white'
+          backgroundColor: '#F6F3F0',
         },
 
 
@@ -40,14 +41,16 @@ export default function MainPage() {
             flexDirection: 'column',
             margin: 0,
             padding: 0,
-            backgroundColor: 'white'
+            backgroundColor: '#F6F3F0',
+            overflow: 'hidden',
+            width: "100%"
 
 
         }
       }}/>
 
 
-        <Box w="100vw" minH={{sm: "190vh", lg: "130vh", "2xl": "100vh"}} bg="#F6F3F0" display="flex" justifyContent="center" alignItems="center" overflow="hidden" m={0} p={0}>
+        <Box w="100vw" minH={{sm: "190vh", lg: "130vh", "2xl": "100vh"}} bg="#F6F3F0" display="flex" justifyContent="center" maxW="1000px"alignItems="center" overflow="hidden" m={0} p={0}>
 
 
         <Box w="100vw" minH={{sm: "190vh", lg: "130vh", "2xl": "100vh"}} position="relative" m={0} p={0} overflow="hidden" maxW="1000px" bg="#F6F3F0">

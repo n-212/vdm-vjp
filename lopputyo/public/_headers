@@ -1,5 +1,5 @@
 # Fix MIME type for JS files
-/*.js
+/*.jsx
   Content-Type: application/javascript
   X-Content-Type-Options: nosniff
 

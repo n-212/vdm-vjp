@@ -1,12 +1,53 @@
-# React + Vite
+Emil Riihiranta
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    Työtehtävät: 
+    AboutPagen ja MainPagen koodaaminen ja niiden responsiivisuudesta huolehtiminen Moonan kanssa.  
+    Modaalin tekeminen pääsivulle. 
 
-Currently, two official plugins are available:
+    Työtunnit: 
+    9.5 -> 3h
+    10.5 -> 6h
+    11.5  -> 7h
+    12.5 -> 8h 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Moona Multala
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Työtehtävät: 
+    Carousel komponentin suunnittelu ja koodaus. 
+
+    Työtunnit:
+
+    Moona laita tähän ne sun designaus päivät ja tunnit. 
+
+    9.5 -> 
+    10.5 -> 
+    11.5 -> 
+    12.5 ->
+
+
+Arttu Valonen
+
+    Työtehtävät:
+    Feedin koodaus
+
+    Työtunnit:
+    9.5
+    10.5
+    11.5 
+    12.5
+
+
+Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
+
+    Opimme, että git on erittäin vahva työkalu varsinkin ryhmässä työskennellessä. Emme kohdanneet mitään kovin pahoja haasteita, välillä vain jotkin commitit menivät hieman sekaisin ja siihen kului turhaa aikaa. 
+
+Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
+    Projektissamme on monta eri alasivua, joten oli aika helppoa jakaa eri ryhmäläisiä vain työskentelemään eri alasivujen pariin. Näin minimoimme mahdollisten päällekkäisyysongelmien määrän. 
+
+Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
+    Opimme, että on todella tärkeää tehdä saman näköisiä komponentteja, jotta nettisivut muodostavat luotettavan ja yhtenäisen kuvan käyttäjälle. On siis tärkeää, ennen minkään komponentin koodausta, että kaikki tietävät minkä tyylisiä komponenttien tulee olla.
+
+
+Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla? 
+    Hyödynnettiin tekoälyä kun figmassa suunniteltuja somepostauksia JSON muotoon. Kysyttiin myös apua myös ohjelmoinnissa, esim. miten UseState toimii Chakra UI:n kanssa. 

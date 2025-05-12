@@ -18,9 +18,7 @@ export default function OpenSelect({ isOpen, onClose }) {
         <ModalHeader color="black">Astu hahmon saappaisiin</ModalHeader>
         <ModalCloseButton />
         <ModalBody p="0px">
-          <Flex alignItems={"center"} height="100%">
-            <SelectCarousel />
-          </Flex>
+          <SelectCarousel />
         </ModalBody>
       </ModalContent>
     </Modal>

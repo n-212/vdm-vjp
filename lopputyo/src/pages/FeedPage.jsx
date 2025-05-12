@@ -3,43 +3,8 @@ import { Box, Flex, Show } from "@chakra-ui/react"
 import Logo from "../components/Logo"
 import { useParams } from "react-router-dom"
 import feedPosts from "../feedPosts.json"
+import SelectCarousel from "../components/SelectCarousel"
 
-
-const postExample = {
-    username: "fitnesstee",
-    picSrc: "/trump.jpg",
-    likes: 1061,
-    description: "Ensi viikolla Salatut elämät -sarjassa Salla kertoo Danielalle nähneensä Noelin toisen naisen seurassa. Myöhemmin Danielaa odottaa kotona yllätys.",
-    comments: [
-        {
-            user: "möröjölli",
-            text: "jee"
-
-        },
-        {
-            user: "someprovokaattori",
-            text: "on hyvä että naisen euro on 80 senttiä niin pysyy marssijärjestys"
-        }
-    ]
-}
-
-const postExample2 = {
-    username: "fitnesstee",
-    picSrc: "/avatar.jpeg",
-    likes: 1061,
-    description: "Ensi viikolla Salatut elämät -sarjassa Salla kertoo Danielalle nähneensä Noelin toisen naisen seurassa. Myöhemmin Danielaa odottaa kotona yllätys.",
-    comments: [
-        {
-            user: "möröjölli",
-            text: "jee"
-
-        },
-        {
-            user: "someprovokaattori",
-            text: "on hyvä että naisen euro on 80 senttiä niin pysyy marssijärjestys"
-        }
-    ]
-}
 
 
 export default function FeedPage() {
@@ -65,6 +30,11 @@ export default function FeedPage() {
             })}
         </Box>
     </Flex>
+    <Box maxWidth={"540px"} backgroundColor="white" margin={"auto"}>
+        <Box maxWidth={"400px"} margin={"auto"}>
+            <SelectCarousel />
+        </Box>
+    </Box>
 
     </>)
 }

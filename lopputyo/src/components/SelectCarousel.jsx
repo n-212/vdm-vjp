@@ -87,6 +87,7 @@ export default function SelectCarousel({ remove="" }) {
               <Button
                 as={Link}
                 to={`/feed/${bubble.heading}`}
+                onClick={() => window.scrollTo(0, 0)}
                 bg="kuplassa.kupla3"
                 mx="30px"
                 minWidth="80%"

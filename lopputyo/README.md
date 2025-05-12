@@ -16,16 +16,15 @@ Emil Riihiranta
 Moona Multala
 
     Työtehtävät: 
-    Carousel komponentin suunnittelu ja koodaus. 
+    Carousel komponentin suunnittelu ja koodaus. Emilin kanssa huolehdin AboutPagen ja MainPagen responsiivisuuden. Lisäksi tein Ineksen kanssa projektin Figman, tekstisisällöt sekä ylipäätään sivujen UIn.
 
     Työtunnit:
 
-    Moona laita tähän ne sun designaus päivät ja tunnit. 
-
-    9.5 -> 
-    10.5 -> 
-    11.5 -> 
-    12.5 ->
+    16.4 -> 2h
+    22.4 -> 5h
+    28.4 -> 6h
+    11.5 -> 7h
+    12.5 -> 1h
 
 
 Arttu Valonen

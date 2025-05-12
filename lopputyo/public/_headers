@@ -1,9 +1,0 @@
-# Fix MIME type for JS files
-/*.jsx
-  Content-Type: application/javascript
-  X-Content-Type-Options: nosniff
-
-# Security headers for all files
-/*
-  X-Frame-Options: DENY
-  Referrer-Policy: strict-origin-when-cross-origin
